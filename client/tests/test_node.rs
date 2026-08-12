@@ -16,7 +16,7 @@ use dydx_proto::dydxprotocol::{
     ratelimit::{QueryCapacityByDenomRequest, QueryCapacityByDenomResponse},
     subaccounts::SubaccountId,
 };
-use rand::{rng, Rng};
+use rand::{rng, RngExt};
 use serial_test::serial;
 use std::str::FromStr;
 use tokio::time::{sleep, Duration};

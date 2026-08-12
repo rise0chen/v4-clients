@@ -7,7 +7,7 @@ use dydx_proto::dydxprotocol::clob::{
     Order, OrderId,
 };
 use dydx_proto::dydxprotocol::subaccounts::SubaccountId;
-use rand::{rng, Rng};
+use rand::{rng, RngExt};
 use support::constants::TEST_MNEMONIC;
 use tokio::time::{sleep, Duration};
 

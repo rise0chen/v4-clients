@@ -4,7 +4,7 @@ use env::TestEnv;
 use anyhow::Error;
 use bigdecimal::BigDecimal;
 use dydx::node::*;
-use rand::{rng, Rng};
+use rand::{rng, RngExt};
 use serial_test::serial;
 use std::str::FromStr;
 use tokio::time::{sleep, Duration};
